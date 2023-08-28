@@ -1,0 +1,72 @@
+:root {
+    --color-primary: #525fe1;
+    --color-primary-transparent: #525ee1bd;
+    --color-secondary: #2502de;
+    --color-tertiary: #de03fa;
+    --color-white: #fff6f4;
+    --color-black: #1a1a1a;
+    --color-accent: #f86f03;
+    --color-accent-light: #ffa41b;
+}
+
+a {
+    font-weight: 500;
+    color: var(--color-secondary);
+    text-decoration: inherit;
+}
+a:hover {
+    color: var(--color-accent);
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 600;
+}
+h3 {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 500;
+}
+h4 {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 500;
+}
+p {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: var(--color-black);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: var(--color-primary);
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
